@@ -1,0 +1,85 @@
+body{
+    padding: 0%;
+    width: 100%;
+    margin: 0%;
+}
+
+h1{
+    color: whitesmoke;
+    margin: 0px;
+    padding: 30px;
+    background-color: rgb(57, 56, 56);
+    width: 100%;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(37, 37, 37);
+    width: 15%;
+    color:white;
+}
+
+#liste-jeux{
+    background-color: rgb(17, 17, 17);
+    width: 85%;
+
+}
+
+#corps{
+    display: flex;
+    height:  2000px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 4px;
+}
+
+li:hover{
+    transition-timing-function: ease-in;
+    transition-duration: 0.1s;
+    transform: scale(1.15);
+}
+
+ul{
+    margin-top: 70px;
+    display: grid;
+    list-style: none;
+    grid-template: "a b c" ;
+    column-gap: 50px;
+
+}
+li{
+    margin-bottom: 25px;
+}
+
+.solo{
+    transform: scale(1);
+}
+.multi{
+    transform: scale(1);
+
+}
+
+select{
+    width: 100%;
+}
+
+ h2{
+    padding-left: 30px;
+}
+input{
+    margin-left: 35px;
+}
+
+.description{
+    color: white;
+    position: absolute;
+    width: 200px;
+    bottom: 5px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #000000a7;
+    text-align: center;
+}

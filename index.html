@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+
+        <title>Notre super bibliothèque</title>
+    </head>
+    <body>
+        
+        <header>
+            <h1>Notre super bibliothèque</h1>
+        </header>
+        <div id="corps">
+            <nav>
+                <h2 class="">Filtres :</h2>
+                <input type="checkbox" class="filtres" name="multi" id="check-multi" checked>
+                <label for="multi">Multijoueur<br></label>
+                <input type="checkbox" class="filtres" name="solo" id="check-solo" checked>
+                <label for="solo">Solo</label>
+                <h2>Tri :</h2>
+                <select name="tri-options" id="ordre">
+                    <option value="alphabetique" id="alphabetique">Alphabétique </option>
+                    <option value="alphabetique-inverse" id="alphabetique-inverse">Alphabétique inversé </option>
+
+                </select>
+
+            </nav>
+            <div id="liste-jeux">
+                <ul id="list-jeux-ul">
+                    <li class="solo multi"><img src="images/factorio.jpg" alt="factorio">
+                    <div class="description"><p>Détruisez votre vie en un achat</p></div></li>
+                    <li class=" multi"><img src="images/minecraft.jpg" alt="minecraft">
+                    <div class="description"><p>Jeu cubique suédois</p></div</li>
+                    <li class="solo"><img src="images/cyberpunk.jpeg" alt="cyberpunk">
+                    <div class="description"><p>Du chrome, et du chrome</p></div</li>
+                    <li class="solo multi"><img src="images/advance-wars.jpg" alt="advance-wars">
+                    <div class="description"><p>Un conflit trop mignon</p></div></li>
+                    <li class="solo"><img src="images/football-manager.jpeg" alt="football-manager">
+                    <div class="description"><p>L'horoscope des hommes</p></div</li>
+                    <li class="solo multi"><img src="images/stellaris.jpg" alt="stellaris">
+                    <div class="description"><p>Génocide simulator</p></div</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
